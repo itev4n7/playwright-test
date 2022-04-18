@@ -5,13 +5,13 @@ const { NavigationBarComponent } = require('../../components/NavigationBarCompon
 test.describe('Check navigator bar component', async () => {
 
     test.beforeEach(async ({ page }, testInfo) => {
-        console.log(`Running ${testInfo.title}`)
+        console.log(`Running "${testInfo.title}"`)
         await page.goto(BASE_URL)
     })
 
     test('Check "Playwright"(logo) button redirection', async ({ page }) => {
         const navigationBarComponent = new NavigationBarComponent(page)
-        await navigationBarComponent.playwrightLogoButton.waitFor('visible')
+        await navigationBarComponent.playwrightLogoButton.waitFor({ state: 'visible' })
         await navigationBarComponent.playwrightLogoButton.click()
         expect(page.url()).toEqual(BASE_URL)
     })

@@ -5,13 +5,13 @@ const { MainPage } = require('../../pages/MainPage')
 test.describe('Check main playwright page', async () => {
 
     test.beforeEach(async ({ page }, testInfo) => {
-        console.log(`Running ${testInfo.title}`)
+        console.log(`Running "${testInfo.title}"`)
         await page.goto(BASE_URL)
     })
 
     test('Check "GET STARTED" button redirection', async ({ page }) => {
         const mainPage = new MainPage(page)
-        await mainPage.getStartedButton.waitFor('visible')
+        await mainPage.getStartedButton.waitFor({ state: 'visible' })
         await mainPage.getStartedButton.click()
         expect(page.url()).toEqual(INTRO_URL)
     })

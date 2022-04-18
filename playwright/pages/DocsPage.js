@@ -1,28 +1,35 @@
-
 class DocsPage {
 
     constructor(page) {
         this.page = page
     }
 
-    async get introductionSideBarrSection() {
-        return await this.page.locator('//*[@class="menu__list-item-collapsible" and contains(.,"Introduction")]')
+    get introductionSideBarrSection() {
+        return this.page.locator('//*[@class="menu__list-item-collapsible" and contains(.,"Introduction")]')
     }
 
-    async get gettingStartedIntroductionListItem() {
-        return await this.page.locator('//li[contains(@class, "menu__list-item")]//*[@href="/docs/intro"]')
+    get gettingStartedIntroductionListItem() {
+        return this.page.locator('//li[contains(@class, "menu__list-item")]//*[@href="/docs/intro"]')
     }
 
-    async get inspectorIntroductionListItem() {
-        return await this.page.locator('//li[contains(@class, "menu__list-item")]//*[@href="/docs/inspector"]')
+    get inspectorIntroductionListItem() {
+        return this.page.locator('//li[contains(@class, "menu__list-item")]//*[@href="/docs/inspector"]')
     }
 
-    async get traceViewerIntroductionListItem() {
-        return await this.page.locator('//li[contains(@class, "menu__list-item")]//*[@href="/docs/trace-viewer"]')
+    get traceViewerIntroductionListItem() {
+        return this.page.locator('//li[contains(@class, "menu__list-item")]//*[@href="/docs/trace-viewer"]')
     }
 
-    async get documentHeader() {
-        return await this.page.locator('.theme-doc-markdown header')
+    get documentHeader() {
+        return this.page.locator('.theme-doc-markdown header')
+    }
+
+    get introductionSectionHeader() {
+        return this.page.locator('//*[contains(@class, "menu__link") and contains(.,"Introduction")]')
+    }
+
+    get introductionListItems() {
+        return this.page.locator('//li[contains(@class, "menu__list-item") and contains(.,"Introduction")]/ul/li')
     }
 }
 
