@@ -6,7 +6,7 @@ test.describe('Check API', async () => {
         console.log(`Running "${testInfo.title}"`)
     })
 
-    test('Check call - GET /docs/api/class-playwright 200', async ({ request }) => {
+    test('Check call - GET /docs/api/class-playwright 200 @fast', async ({ request }) => {
         const apiDocsUrl = 'https://playwright.dev/docs/api/class-playwright'
         const responce = await request.get(apiDocsUrl)
         expect(responce.status()).toEqual(200)

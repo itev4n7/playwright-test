@@ -1,11 +1,13 @@
 {
   "name": "playwright-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test framework using Playwright with Page Object pattern",
   "main": "index.js",
   "scripts": {
     "test": "playwright test --config=playwright/configs/playwright.config.js",
-    "inspector": "PWDEBUG=1 npm run test"
+    "inspector": "PWDEBUG=1 npm run test",
+    "test:tag-fast": "playwright test --config=playwright/configs/playwright.config.js --grep @fast",
+    "test:tag-slow": "playwright test --config=playwright/configs/playwright.config.js --grep @slow"
   },
   "keywords": [],
   "author": "Oleksii Kvasov",
