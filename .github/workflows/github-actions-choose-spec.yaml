@@ -31,7 +31,7 @@ jobs:
     needs: build
     steps:
       - name: Run tests
-        run: playwright test ${{ github.event.inputs.specPath }} --config=playwright/configs/playwright.config.js
+        run: SPEC=${{ github.event.inputs.specPath }} npm run test:spec
 
       - uses: actions/upload-artifact@master
         with:
