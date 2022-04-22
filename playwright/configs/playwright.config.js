@@ -5,7 +5,7 @@ const config = {
     timeout: 30000,
     forbidOnly: !!process.env.CI,
     retries: process.env.CI ? 1 : 0,
-    //reporter: process.env.CI ? 'dot' : 'list',
+    reporter: process.env.CI ? 'allure-playwright' : 'line',
     workers: process.env.CI ? 3 : 1,
     testDir: path.join(__dirname, '../tests'),
     use: {
