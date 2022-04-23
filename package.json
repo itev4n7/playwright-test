@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npx playwright test --config=playwright.config.js",
     "inspector": "PWDEBUG=1 npm run test",
-    "test:spec": "npx playwright test --config=playwright.config.js $SPEC",
+    "test:spec": "npx playwright test $SPEC --config=playwright.config.js",
     "test:tag-fast": "npx playwright test --config=playwright.config.js --grep @fast",
     "test:tag-slow": "npx playwright test --config=playwright.config.js --grep @slow"
   },

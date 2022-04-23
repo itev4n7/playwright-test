@@ -1,17 +1,14 @@
 const { devices } = require('@playwright/test')
-const path = require('path')
 
 const config = {
     timeout: 30000,
     forbidOnly: !!process.env.CI,
     retries: process.env.CI ? 1 : 0,
-    //reporter: process.env.CI ? 'allure-playwright' : 'line',
     reporter: [
         ['line'],
         ['allure-playwright']
     ],
     workers: process.env.CI ? 3 : 1,
-    //testDir: path.join(__dirname, '/tests'),
     use: {
         viewport: { width: 1920, height: 1080 },
         video: 'off',
