@@ -11,4 +11,8 @@ test.describe('Check API', async () => {
         const responce = await request.get(apiDocsUrl)
         expect(responce.status()).toEqual(200)
     })
+
+    test('test will fail', async ({ page }) => {
+        expect(true).toBe(false)
+    })
 })
