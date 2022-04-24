@@ -27,7 +27,7 @@ jobs:
         with:
           name: allure-results
           path: allure-results
-          retention-days: 14
+          retention-days: 5
 
       - name: Upload test results
         if: ${{ always() }}
@@ -35,7 +35,15 @@ jobs:
         with:
           name: allure-results
           path: allure-results
-          retention-days: 3
+          retention-days: 5
+
+      - name: Get allure history
+        uses: actions/checkout@v2
+        if: ${{ always() }}
+        continue-on-error: true
+        with:
+          ref: github-pages
+          path: github-pages
 
       - name: Test marketplace action
         uses: simple-elf/allure-report-action@master

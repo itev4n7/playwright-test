@@ -37,7 +37,7 @@ jobs:
         with:
           name: allure-results
           path: allure-results
-          retention-days: 3
+          retention-days: 5
 
       - name: Get allure history
         uses: actions/checkout@v2
@@ -53,7 +53,7 @@ jobs:
         id: allure-report
         with:
           allure_results: allure-results
-          github_pages: github-pages
+          gh_pages: github-pages
           allure_report: allure-report
           allure_history: allure-history
           keep_reports: 5
