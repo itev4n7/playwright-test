@@ -1,0 +1,91 @@
+[ {
+  "uid" : "97c0cb41c9a39b75",
+  "name" : "Check scroll to footer \"Community\" column title",
+  "time" : {
+    "start" : 1650823771950,
+    "stop" : 1650823773808,
+    "duration" : 1858
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b48832439384ff6",
+  "name" : "test will fail",
+  "time" : {
+    "start" : 1650823779727,
+    "stop" : 1650823785713,
+    "duration" : 5986
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7b4fed04bd0578a",
+  "name" : "test will fail",
+  "time" : {
+    "start" : 1650823768946,
+    "stop" : 1650823770151,
+    "duration" : 1205
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "100c3070e2976182",
+  "name" : "Check \"Playwright\"(logo) button redirection @fast",
+  "time" : {
+    "start" : 1650823771261,
+    "stop" : 1650823772719,
+    "duration" : 1458
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d46e82b30b086c7",
+  "name" : "Check redirection on GitHub repo after clicking on link button",
+  "time" : {
+    "start" : 1650823769707,
+    "stop" : 1650823771949,
+    "duration" : 2242
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39fdbbfb0b6961c2",
+  "name" : "Check side panel introduction items",
+  "time" : {
+    "start" : 1650823766724,
+    "stop" : 1650823770003,
+    "duration" : 3279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42b3acd9151dfa30",
+  "name" : "Check call - GET /docs/api/class-playwright 200 @fast",
+  "time" : {
+    "start" : 1650823766819,
+    "stop" : 1650823767745,
+    "duration" : 926
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53816a5c6cfa3107",
+  "name" : "Check tag @slow",
+  "time" : {
+    "start" : 1650823770005,
+    "stop" : 1650823776390,
+    "duration" : 6385
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20038f446879ae62",
+  "name" : "Check \"GET STARTED\" button redirection",
+  "time" : {
+    "start" : 1650823766766,
+    "stop" : 1650823769705,
+    "duration" : 2939
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
