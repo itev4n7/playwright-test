@@ -1,0 +1,158 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "chromium",
+    "children" : [ {
+      "name" : "tests/ui/main_page.spec.js",
+      "children" : [ {
+        "name" : "Check main playwright page",
+        "children" : [ {
+          "name" : "Check \"GET STARTED\" button redirection",
+          "uid" : "37cf2725f6821a78",
+          "parentUid" : "c3b7dec6443f8494c881abe6ffb5ec3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650822516275,
+            "stop" : 1650822519013,
+            "duration" : 2738
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check redirection on GitHub repo after clicking on link button",
+          "uid" : "1b37dfd395c820fe",
+          "parentUid" : "c3b7dec6443f8494c881abe6ffb5ec3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650822519013,
+            "stop" : 1650822521320,
+            "duration" : 2307
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check scroll to footer \"Community\" column title",
+          "uid" : "9f9ab20156ff7fd0",
+          "parentUid" : "c3b7dec6443f8494c881abe6ffb5ec3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650822521321,
+            "stop" : 1650822522867,
+            "duration" : 1546
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test will fail",
+          "uid" : "128dc435bf8e25fe",
+          "parentUid" : "c3b7dec6443f8494c881abe6ffb5ec3a",
+          "status" : "failed",
+          "time" : {
+            "start" : 1650822528679,
+            "stop" : 1650822534535,
+            "duration" : 5856
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c3b7dec6443f8494c881abe6ffb5ec3a"
+      } ],
+      "uid" : "72606b0f41748aaa0d9ae2dce537bc38"
+    }, {
+      "name" : "tests/ui/docs_page.spec.js",
+      "children" : [ {
+        "name" : "Check \"Docs\" page",
+        "children" : [ {
+          "name" : "Check side panel introduction items",
+          "uid" : "ea36c41e96862f6f",
+          "parentUid" : "e9985917a0740a2507da7235422bd5e0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650822516278,
+            "stop" : 1650822519532,
+            "duration" : 3254
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check tag @slow",
+          "uid" : "adbf33a067e055aa",
+          "parentUid" : "e9985917a0740a2507da7235422bd5e0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650822519536,
+            "stop" : 1650822525813,
+            "duration" : 6277
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e9985917a0740a2507da7235422bd5e0"
+      } ],
+      "uid" : "27a1d6fa7b933b7f4bedc5db4d10cf92"
+    }, {
+      "name" : "tests/api/api.spec.js",
+      "children" : [ {
+        "name" : "Check API",
+        "children" : [ {
+          "name" : "Check call - GET /docs/api/class-playwright 200 @fast",
+          "uid" : "3b634c3da0224a75",
+          "parentUid" : "08655511fccb1b9680b4f5029d1fd755",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650822516313,
+            "stop" : 1650822517147,
+            "duration" : 834
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test will fail",
+          "uid" : "d4ee6d460b52b785",
+          "parentUid" : "08655511fccb1b9680b4f5029d1fd755",
+          "status" : "failed",
+          "time" : {
+            "start" : 1650822518066,
+            "stop" : 1650822518975,
+            "duration" : 909
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "08655511fccb1b9680b4f5029d1fd755"
+      } ],
+      "uid" : "8d56c544d3a63809967393d96bb6e55d"
+    }, {
+      "name" : "tests/ui/navigator_bar.spec.js",
+      "children" : [ {
+        "name" : "Check navigator bar component",
+        "children" : [ {
+          "name" : "Check \"Playwright\"(logo) button redirection @fast",
+          "uid" : "65222cda8877e5df",
+          "parentUid" : "e36093dc7763101ad76f36e0c7b8450d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1650822519877,
+            "stop" : 1650822521295,
+            "duration" : 1418
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e36093dc7763101ad76f36e0c7b8450d"
+      } ],
+      "uid" : "67c369e6af3f367ed1f5f16935b2aa0c"
+    } ],
+    "uid" : "36c900977e1d8b81a2c6893cc82bfc01"
+  } ],
+  "name" : "suites"
+}

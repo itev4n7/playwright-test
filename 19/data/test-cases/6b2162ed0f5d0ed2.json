@@ -1,0 +1,176 @@
+{
+  "uid" : "6b2162ed0f5d0ed2",
+  "name" : "test will fail",
+  "fullName" : "test will fail",
+  "historyId" : "chromium tests/ui/main_page.spec.js Check main playwright page test will fail",
+  "time" : {
+    "start" : 1650822522867,
+    "stop" : 1650822528333,
+    "duration" : 5466
+  },
+  "status" : "failed",
+  "statusMessage" : "expect(received).toHaveText(expected)\n\nExpected string: \"wrong text\"\nReceived string: \"Get started\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \"//*[@href=\"/docs/intro\" and contains(text(),\"Get started\")]\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n",
+  "statusTrace" : "\n    at /home/runner/work/playwright-test/playwright-test/tests/ui/main_page.spec.js:40:49",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toHaveText(expected)\n\nExpected string: \"wrong text\"\nReceived string: \"Get started\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \"//*[@href=\"/docs/intro\" and contains(text(),\"Get started\")]\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n",
+    "statusTrace" : "\n    at /home/runner/work/playwright-test/playwright-test/tests/ui/main_page.spec.js:40:49",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1650822522867,
+        "stop" : 1650822523190,
+        "duration" : 323
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1650822522867,
+          "stop" : 1650822523190,
+          "duration" : 323
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1650822522871,
+            "stop" : 1650822522905,
+            "duration" : 34
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.goto(https://playwright.dev/)",
+          "time" : {
+            "start" : 1650822522906,
+            "stop" : 1650822523189,
+            "duration" : 283
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "expect.toHaveText",
+      "time" : {
+        "start" : 1650822523190,
+        "stop" : 1650822528196,
+        "duration" : 5006
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1650822528196,
+        "stop" : 1650822528332,
+        "duration" : 136
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1650822528303,
+          "stop" : 1650822528307,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5dd5cd656b28ff",
+      "name" : "screenshot",
+      "source" : "5dd5cd656b28ff.png",
+      "type" : "image/png",
+      "size" : 102178
+    }, {
+      "uid" : "64243c18c0a03641",
+      "name" : "stdout",
+      "source" : "64243c18c0a03641.txt",
+      "type" : "text/plain",
+      "size" : 25
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/ui/main_page.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Check main playwright page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b2162ed0f5d0ed2.json",
+  "parameterValues" : [ ]
+}
