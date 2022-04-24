@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true",
+      "children" : [ {
+        "name" : "test will fail",
+        "uid" : "55d5bb921e259bea",
+        "parentUid" : "9b58840d331796e97b93f57bb701a70e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650824405184,
+          "stop" : 1650824406507,
+          "duration" : 1323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9b58840d331796e97b93f57bb701a70e"
+    }, {
+      "name" : "expect(received).toHaveText(expected)\n\nExpected string: \"wrong text\"\nReceived string: \"Get started\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \"//*[@href=\"/docs/intro\" and contains(text(),\"Get started\")]\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n",
+      "children" : [ {
+        "name" : "test will fail",
+        "uid" : "2c8c7378097a871e",
+        "parentUid" : "2443fb2e483a24afd3a10af13afbeb83",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650824417879,
+          "stop" : 1650824424120,
+          "duration" : 6241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2443fb2e483a24afd3a10af13afbeb83"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

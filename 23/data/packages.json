@@ -1,0 +1,122 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Check side panel introduction items",
+    "uid" : "996153d8b9cc5bed",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1650824403138,
+      "stop" : 1650824407757,
+      "duration" : 4619
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check \"GET STARTED\" button redirection",
+    "uid" : "64e82133e5010eeb",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1650824403172,
+      "stop" : 1650824407183,
+      "duration" : 4011
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check call - GET /docs/api/class-playwright 200 @fast",
+    "uid" : "8060ac2f890b3db4",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1650824403390,
+      "stop" : 1650824404289,
+      "duration" : 899
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test will fail",
+    "uid" : "55d5bb921e259bea",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "failed",
+    "time" : {
+      "start" : 1650824405184,
+      "stop" : 1650824406507,
+      "duration" : 1323
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check redirection on GitHub repo after clicking on link button",
+    "uid" : "b704489be1e10952",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1650824407183,
+      "stop" : 1650824410050,
+      "duration" : 2867
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check \"Playwright\"(logo) button redirection @fast",
+    "uid" : "f1a9a2e4a17dc704",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1650824407647,
+      "stop" : 1650824410142,
+      "duration" : 2495
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check tag @slow",
+    "uid" : "9034cec7780d3683",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1650824407758,
+      "stop" : 1650824414662,
+      "duration" : 6904
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check scroll to footer \"Community\" column title",
+    "uid" : "619c3ba302b0acdc",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1650824410050,
+      "stop" : 1650824411826,
+      "duration" : 1776
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test will fail",
+    "uid" : "2c8c7378097a871e",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "failed",
+    "time" : {
+      "start" : 1650824417879,
+      "stop" : 1650824424120,
+      "duration" : 6241
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "packages"
+}
