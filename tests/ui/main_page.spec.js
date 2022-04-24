@@ -34,5 +34,10 @@ test.describe('Check main playwright page', async () => {
         await page.waitForTimeout(timeouts.ONE_SECOND)
         await expect(mainPage.footerCommunityColumnTitle).toBeVisible()
     })
+
+    test('test will fail', async ({page}) => {
+        const mainPage = new MainPage(page)
+        await expect(mainPage.getStartedButton).toHaveText('wrong text')
+    })
 })
 
