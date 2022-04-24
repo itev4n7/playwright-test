@@ -1,1 +1,10 @@
-[ ]
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://itev4n7.github.io/playwright-test",
+  "buildOrder" : 20,
+  "buildName" : "GitHub Actions Run #2216364455",
+  "buildUrl" : "https://github.com/itev4n7/playwright-test/actions/runs/2216364455",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://itev4n7.github.io/playwright-test/20/"
+} ]

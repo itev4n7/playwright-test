@@ -1,1 +1,267 @@
-{ }
+{
+  "chromium tests/ui/main_page.spec.js Check main playwright page Check \"GET STARTED\" button redirection" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "8ba7203d266b045e",
+      "reportUrl" : "https://itev4n7.github.io/playwright-test/20//#testresult/8ba7203d266b045e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650823076312,
+        "stop" : 1650823080156,
+        "duration" : 3844
+      }
+    }, {
+      "uid" : "37cf2725f6821a78",
+      "reportUrl" : "https://itev4n7.github.io/playwright-test/19//#testresult/37cf2725f6821a78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650822516275,
+        "stop" : 1650822519013,
+        "duration" : 2738
+      }
+    } ]
+  },
+  "chromium tests/api/api.spec.js Check API Check call - GET /docs/api/class-playwright 200 @fast" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "81115584bb9fd8f8",
+      "reportUrl" : "https://itev4n7.github.io/playwright-test/20//#testresult/81115584bb9fd8f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650823076399,
+        "stop" : 1650823077402,
+        "duration" : 1003
+      }
+    }, {
+      "uid" : "3b634c3da0224a75",
+      "reportUrl" : "https://itev4n7.github.io/playwright-test/19//#testresult/3b634c3da0224a75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650822516313,
+        "stop" : 1650822517147,
+        "duration" : 834
+      }
+    } ]
+  },
+  "chromium tests/ui/docs_page.spec.js Check \"Docs\" page Check side panel introduction items" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "7e11fce7a9399ce9",
+      "reportUrl" : "https://itev4n7.github.io/playwright-test/20//#testresult/7e11fce7a9399ce9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650823076394,
+        "stop" : 1650823080973,
+        "duration" : 4579
+      }
+    }, {
+      "uid" : "ea36c41e96862f6f",
+      "reportUrl" : "https://itev4n7.github.io/playwright-test/19//#testresult/ea36c41e96862f6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650822516278,
+        "stop" : 1650822519532,
+        "duration" : 3254
+      }
+    } ]
+  },
+  "chromium tests/ui/navigator_bar.spec.js Check navigator bar component Check \"Playwright\"(logo) button redirection @fast" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "1cb5a3b3fbae4f2e",
+      "reportUrl" : "https://itev4n7.github.io/playwright-test/20//#testresult/1cb5a3b3fbae4f2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650823081242,
+        "stop" : 1650823083379,
+        "duration" : 2137
+      }
+    }, {
+      "uid" : "65222cda8877e5df",
+      "reportUrl" : "https://itev4n7.github.io/playwright-test/19//#testresult/65222cda8877e5df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650822519877,
+        "stop" : 1650822521295,
+        "duration" : 1418
+      }
+    } ]
+  },
+  "chromium tests/api/api.spec.js Check API test will fail" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "8d83c0f00fbfedf7",
+      "reportUrl" : "https://itev4n7.github.io/playwright-test/20//#testresult/8d83c0f00fbfedf7",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true",
+      "time" : {
+        "start" : 1650823078456,
+        "stop" : 1650823079972,
+        "duration" : 1516
+      }
+    }, {
+      "uid" : "d4ee6d460b52b785",
+      "reportUrl" : "https://itev4n7.github.io/playwright-test/19//#testresult/d4ee6d460b52b785",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBe(expected) // Object.is equality\n\nExpected: false\nReceived: true",
+      "time" : {
+        "start" : 1650822518066,
+        "stop" : 1650822518975,
+        "duration" : 909
+      }
+    } ]
+  },
+  "chromium tests/ui/main_page.spec.js Check main playwright page Check redirection on GitHub repo after clicking on link button" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c234e88bc415c358",
+      "reportUrl" : "https://itev4n7.github.io/playwright-test/20//#testresult/c234e88bc415c358",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650823080157,
+        "stop" : 1650823083282,
+        "duration" : 3125
+      }
+    }, {
+      "uid" : "1b37dfd395c820fe",
+      "reportUrl" : "https://itev4n7.github.io/playwright-test/19//#testresult/1b37dfd395c820fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650822519013,
+        "stop" : 1650822521320,
+        "duration" : 2307
+      }
+    } ]
+  },
+  "chromium tests/ui/docs_page.spec.js Check \"Docs\" page Check tag @slow" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "fb174cf41110428b",
+      "reportUrl" : "https://itev4n7.github.io/playwright-test/20//#testresult/fb174cf41110428b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650823080973,
+        "stop" : 1650823087938,
+        "duration" : 6965
+      }
+    }, {
+      "uid" : "adbf33a067e055aa",
+      "reportUrl" : "https://itev4n7.github.io/playwright-test/19//#testresult/adbf33a067e055aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650822519536,
+        "stop" : 1650822525813,
+        "duration" : 6277
+      }
+    } ]
+  },
+  "chromium tests/ui/main_page.spec.js Check main playwright page test will fail" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "18ac898c37954d75",
+      "reportUrl" : "https://itev4n7.github.io/playwright-test/20//#testresult/18ac898c37954d75",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toHaveText(expected)\n\nExpected string: \"wrong text\"\nReceived string: \"Get started\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \"//*[@href=\"/docs/intro\" and contains(text(),\"Get started\")]\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n",
+      "time" : {
+        "start" : 1650823091136,
+        "stop" : 1650823097281,
+        "duration" : 6145
+      }
+    }, {
+      "uid" : "128dc435bf8e25fe",
+      "reportUrl" : "https://itev4n7.github.io/playwright-test/19//#testresult/128dc435bf8e25fe",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toHaveText(expected)\n\nExpected string: \"wrong text\"\nReceived string: \"Get started\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \"//*[@href=\"/docs/intro\" and contains(text(),\"Get started\")]\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n  -   selector resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  -   unexpected value \"Get started\"\n",
+      "time" : {
+        "start" : 1650822528679,
+        "stop" : 1650822534535,
+        "duration" : 5856
+      }
+    } ]
+  },
+  "chromium tests/ui/main_page.spec.js Check main playwright page Check scroll to footer \"Community\" column title" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "17be890e5dd3a889",
+      "reportUrl" : "https://itev4n7.github.io/playwright-test/20//#testresult/17be890e5dd3a889",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650823083281,
+        "stop" : 1650823085070,
+        "duration" : 1789
+      }
+    }, {
+      "uid" : "9f9ab20156ff7fd0",
+      "reportUrl" : "https://itev4n7.github.io/playwright-test/19//#testresult/9f9ab20156ff7fd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650822521321,
+        "stop" : 1650822522867,
+        "duration" : 1546
+      }
+    } ]
+  }
+}

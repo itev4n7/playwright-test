@@ -1,3 +1,15 @@
 [ {
-  "data" : { }
+  "buildOrder" : 20,
+  "reportUrl" : "https://itev4n7.github.io/playwright-test/20/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 20969
+  }
+}, {
+  "buildOrder" : 19,
+  "reportUrl" : "https://itev4n7.github.io/playwright-test/19/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 18260
+  }
 } ]

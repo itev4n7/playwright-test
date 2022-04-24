@@ -1,1 +1,91 @@
-[ ]
+[ {
+  "uid" : "1cb5a3b3fbae4f2e",
+  "name" : "Check \"Playwright\"(logo) button redirection @fast",
+  "time" : {
+    "start" : 1650823081242,
+    "stop" : 1650823083379,
+    "duration" : 2137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c234e88bc415c358",
+  "name" : "Check redirection on GitHub repo after clicking on link button",
+  "time" : {
+    "start" : 1650823080157,
+    "stop" : 1650823083282,
+    "duration" : 3125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18ac898c37954d75",
+  "name" : "test will fail",
+  "time" : {
+    "start" : 1650823091136,
+    "stop" : 1650823097281,
+    "duration" : 6145
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ba7203d266b045e",
+  "name" : "Check \"GET STARTED\" button redirection",
+  "time" : {
+    "start" : 1650823076312,
+    "stop" : 1650823080156,
+    "duration" : 3844
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb174cf41110428b",
+  "name" : "Check tag @slow",
+  "time" : {
+    "start" : 1650823080973,
+    "stop" : 1650823087938,
+    "duration" : 6965
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e11fce7a9399ce9",
+  "name" : "Check side panel introduction items",
+  "time" : {
+    "start" : 1650823076394,
+    "stop" : 1650823080973,
+    "duration" : 4579
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81115584bb9fd8f8",
+  "name" : "Check call - GET /docs/api/class-playwright 200 @fast",
+  "time" : {
+    "start" : 1650823076399,
+    "stop" : 1650823077402,
+    "duration" : 1003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17be890e5dd3a889",
+  "name" : "Check scroll to footer \"Community\" column title",
+  "time" : {
+    "start" : 1650823083281,
+    "stop" : 1650823085070,
+    "duration" : 1789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d83c0f00fbfedf7",
+  "name" : "test will fail",
+  "time" : {
+    "start" : 1650823078456,
+    "stop" : 1650823079972,
+    "duration" : 1516
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
