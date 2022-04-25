@@ -1,0 +1,626 @@
+{
+  "uid" : "517dce2b461b0c49",
+  "name" : "Check side panel introduction items",
+  "fullName" : "Check side panel introduction items",
+  "historyId" : "chromium tests/ui/docs_page.spec.js Check \"Docs\" page Check side panel introduction items",
+  "time" : {
+    "start" : 1650911979053,
+    "stop" : 1650911982417,
+    "duration" : 3364
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1650911979060,
+        "stop" : 1650911981223,
+        "duration" : 2163
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "skip modifier",
+        "time" : {
+          "start" : 1650911979061,
+          "stop" : 1650911979068,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1650911979076,
+          "stop" : 1650911981223,
+          "duration" : 2147
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1650911979424,
+            "stop" : 1650911979532,
+            "duration" : 108
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.goto(https://playwright.dev/docs/intro)",
+          "time" : {
+            "start" : 1650911979535,
+            "stop" : 1650911981223,
+            "duration" : 1688
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "locator.count(//li[contains(@class, \"menu__list-item\") and contains(.,\"Introduction\")]/ul/li)",
+      "time" : {
+        "start" : 1650911981224,
+        "stop" : 1650911981555,
+        "duration" : 331
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "should be expanded",
+      "time" : {
+        "start" : 1650911981558,
+        "stop" : 1650911981599,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.count(//li[contains(@class, \"menu__list-item\") and contains(.,\"Introduction\")]/ul/li)",
+      "time" : {
+        "start" : 1650911981601,
+        "stop" : 1650911981610,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "should be expanded",
+      "time" : {
+        "start" : 1650911981611,
+        "stop" : 1650911981621,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.count(//li[contains(@class, \"menu__list-item\") and contains(.,\"Introduction\")]/ul/li)",
+      "time" : {
+        "start" : 1650911981622,
+        "stop" : 1650911981624,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "should be expanded",
+      "time" : {
+        "start" : 1650911981625,
+        "stop" : 1650911981639,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.count(//li[contains(@class, \"menu__list-item\") and contains(.,\"Introduction\")]/ul/li)",
+      "time" : {
+        "start" : 1650911981640,
+        "stop" : 1650911981645,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "should be expanded",
+      "time" : {
+        "start" : 1650911981646,
+        "stop" : 1650911981660,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.count(//li[contains(@class, \"menu__list-item\") and contains(.,\"Introduction\")]/ul/li)",
+      "time" : {
+        "start" : 1650911981660,
+        "stop" : 1650911981662,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "should be expanded",
+      "time" : {
+        "start" : 1650911981662,
+        "stop" : 1650911981678,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.count(//li[contains(@class, \"menu__list-item\") and contains(.,\"Introduction\")]/ul/li)",
+      "time" : {
+        "start" : 1650911981679,
+        "stop" : 1650911981680,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "should be expanded",
+      "time" : {
+        "start" : 1650911981681,
+        "stop" : 1650911981693,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.count(//li[contains(@class, \"menu__list-item\") and contains(.,\"Introduction\")]/ul/li)",
+      "time" : {
+        "start" : 1650911981693,
+        "stop" : 1650911981696,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(//*[contains(@class, \"menu__link\") and contains(.,\"Introduction\")])",
+      "time" : {
+        "start" : 1650911981696,
+        "stop" : 1650911981795,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.waitFor(//li[contains(@class, \"menu__list-item\") and contains(.,\"Introduction\")]/ul/li >> nth=0)",
+      "time" : {
+        "start" : 1650911981796,
+        "stop" : 1650911982113,
+        "duration" : 317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.count(//li[contains(@class, \"menu__list-item\") and contains(.,\"Introduction\")]/ul/li)",
+      "time" : {
+        "start" : 1650911982114,
+        "stop" : 1650911982115,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "should be collapsed",
+      "time" : {
+        "start" : 1650911982116,
+        "stop" : 1650911982122,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.count(//li[contains(@class, \"menu__list-item\") and contains(.,\"Introduction\")]/ul/li)",
+      "time" : {
+        "start" : 1650911982122,
+        "stop" : 1650911982131,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "should be collapsed",
+      "time" : {
+        "start" : 1650911982131,
+        "stop" : 1650911982139,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.count(//li[contains(@class, \"menu__list-item\") and contains(.,\"Introduction\")]/ul/li)",
+      "time" : {
+        "start" : 1650911982139,
+        "stop" : 1650911982142,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "should be collapsed",
+      "time" : {
+        "start" : 1650911982142,
+        "stop" : 1650911982159,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.count(//li[contains(@class, \"menu__list-item\") and contains(.,\"Introduction\")]/ul/li)",
+      "time" : {
+        "start" : 1650911982160,
+        "stop" : 1650911982163,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "should be collapsed",
+      "time" : {
+        "start" : 1650911982164,
+        "stop" : 1650911982175,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.count(//li[contains(@class, \"menu__list-item\") and contains(.,\"Introduction\")]/ul/li)",
+      "time" : {
+        "start" : 1650911982175,
+        "stop" : 1650911982177,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "should be collapsed",
+      "time" : {
+        "start" : 1650911982177,
+        "stop" : 1650911982189,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.count(//li[contains(@class, \"menu__list-item\") and contains(.,\"Introduction\")]/ul/li)",
+      "time" : {
+        "start" : 1650911982189,
+        "stop" : 1650911982197,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "should be collapsed",
+      "time" : {
+        "start" : 1650911982197,
+        "stop" : 1650911982203,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.count(//li[contains(@class, \"menu__list-item\") and contains(.,\"Introduction\")]/ul/li)",
+      "time" : {
+        "start" : 1650911982203,
+        "stop" : 1650911982205,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1650911982205,
+        "stop" : 1650911982416,
+        "duration" : 211
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1650911982406,
+          "stop" : 1650911982416,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c4e137ed2e1d9763",
+      "name" : "stdout",
+      "source" : "c4e137ed2e1d9763.txt",
+      "type" : "text/plain",
+      "size" : 46
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 35,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/ui/docs_page.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Check \"Docs\" page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "2e84bddae44e8e3",
+        "reportUrl" : "https://itev4n7.github.io/playwright-test/24//#testresult/2e84bddae44e8e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650911668968,
+          "stop" : 1650911671935,
+          "duration" : 2967
+        }
+      }, {
+        "uid" : "996153d8b9cc5bed",
+        "reportUrl" : "https://itev4n7.github.io/playwright-test/23//#testresult/996153d8b9cc5bed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650824403138,
+          "stop" : 1650824407757,
+          "duration" : 4619
+        }
+      }, {
+        "uid" : "39fdbbfb0b6961c2",
+        "reportUrl" : "https://itev4n7.github.io/playwright-test/22//#testresult/39fdbbfb0b6961c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650823766724,
+          "stop" : 1650823770003,
+          "duration" : 3279
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "517dce2b461b0c49.json",
+  "parameterValues" : [ ]
+}
