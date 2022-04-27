@@ -1,29 +1,3 @@
 [ {
-  "buildOrder" : 25,
-  "reportUrl" : "https://itev4n7.github.io/playwright-test/25/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 9799
-  }
-}, {
-  "buildOrder" : 24,
-  "reportUrl" : "https://itev4n7.github.io/playwright-test/24/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 9080
-  }
-}, {
-  "buildOrder" : 23,
-  "reportUrl" : "https://itev4n7.github.io/playwright-test/23/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 20982
-  }
-}, {
-  "buildOrder" : 22,
-  "reportUrl" : "https://itev4n7.github.io/playwright-test/22/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 18989
-  }
+  "data" : { }
 } ]
