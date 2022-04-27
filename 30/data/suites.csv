@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Apr 27 17:34:54 GMT 2022","Wed Apr 27 17:35:00 GMT 2022","5810","chromium","tests/ui/docs_page.spec.js","Check ""Docs"" page","","","Check tag @slow",""
+"passed","Wed Apr 27 17:34:55 GMT 2022","Wed Apr 27 17:34:57 GMT 2022","1559","chromium","tests/ui/main_page.spec.js","Check main playwright page","","","Check scroll to footer ""Community"" column title",""
+"passed","Wed Apr 27 17:34:51 GMT 2022","Wed Apr 27 17:34:53 GMT 2022","2294","chromium","tests/ui/main_page.spec.js","Check main playwright page","","","Check ""GET STARTED"" button redirection",""
+"passed","Wed Apr 27 17:34:51 GMT 2022","Wed Apr 27 17:34:54 GMT 2022","2960","chromium","tests/ui/docs_page.spec.js","Check ""Docs"" page","","","Check side panel introduction items",""
+"passed","Wed Apr 27 17:34:52 GMT 2022","Wed Apr 27 17:34:53 GMT 2022","1108","chromium","tests/ui/navigator_bar.spec.js","Check navigator bar component","","","Check ""Playwright""(logo) button redirection @fast",""
+"passed","Wed Apr 27 17:34:53 GMT 2022","Wed Apr 27 17:34:55 GMT 2022","1815","chromium","tests/ui/main_page.spec.js","Check main playwright page","","","Check redirection on GitHub repo after clicking on link button",""
+"passed","Wed Apr 27 17:34:51 GMT 2022","Wed Apr 27 17:34:52 GMT 2022","869","chromium","tests/api/api.spec.js","Check API","","","Check call - GET /docs/api/class-playwright 200 @fast",""

@@ -1,0 +1,132 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "chromium",
+    "children" : [ {
+      "name" : "tests/api/api.spec.js",
+      "children" : [ {
+        "name" : "Check API",
+        "children" : [ {
+          "name" : "Check call - GET /docs/api/class-playwright 200 @fast",
+          "uid" : "2578e2c95e39026c",
+          "parentUid" : "08655511fccb1b9680b4f5029d1fd755",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651080891367,
+            "stop" : 1651080892236,
+            "duration" : 869
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "08655511fccb1b9680b4f5029d1fd755"
+      } ],
+      "uid" : "8d56c544d3a63809967393d96bb6e55d"
+    }, {
+      "name" : "tests/ui/main_page.spec.js",
+      "children" : [ {
+        "name" : "Check main playwright page",
+        "children" : [ {
+          "name" : "Check \"GET STARTED\" button redirection",
+          "uid" : "ff8eb4232a0d3463",
+          "parentUid" : "c3b7dec6443f8494c881abe6ffb5ec3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651080891463,
+            "stop" : 1651080893757,
+            "duration" : 2294
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check redirection on GitHub repo after clicking on link button",
+          "uid" : "bb0f76cebe3cef31",
+          "parentUid" : "c3b7dec6443f8494c881abe6ffb5ec3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651080893758,
+            "stop" : 1651080895573,
+            "duration" : 1815
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check scroll to footer \"Community\" column title",
+          "uid" : "53839c8a6127db5d",
+          "parentUid" : "c3b7dec6443f8494c881abe6ffb5ec3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651080895573,
+            "stop" : 1651080897132,
+            "duration" : 1559
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c3b7dec6443f8494c881abe6ffb5ec3a"
+      } ],
+      "uid" : "72606b0f41748aaa0d9ae2dce537bc38"
+    }, {
+      "name" : "tests/ui/docs_page.spec.js",
+      "children" : [ {
+        "name" : "Check \"Docs\" page",
+        "children" : [ {
+          "name" : "Check side panel introduction items",
+          "uid" : "dd5500b8bbfc36bf",
+          "parentUid" : "e9985917a0740a2507da7235422bd5e0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651080891563,
+            "stop" : 1651080894523,
+            "duration" : 2960
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check tag @slow",
+          "uid" : "fdf587ef28e63538",
+          "parentUid" : "e9985917a0740a2507da7235422bd5e0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651080894524,
+            "stop" : 1651080900334,
+            "duration" : 5810
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e9985917a0740a2507da7235422bd5e0"
+      } ],
+      "uid" : "27a1d6fa7b933b7f4bedc5db4d10cf92"
+    }, {
+      "name" : "tests/ui/navigator_bar.spec.js",
+      "children" : [ {
+        "name" : "Check navigator bar component",
+        "children" : [ {
+          "name" : "Check \"Playwright\"(logo) button redirection @fast",
+          "uid" : "b3818c84c4d77074",
+          "parentUid" : "e36093dc7763101ad76f36e0c7b8450d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1651080892239,
+            "stop" : 1651080893347,
+            "duration" : 1108
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e36093dc7763101ad76f36e0c7b8450d"
+      } ],
+      "uid" : "67c369e6af3f367ed1f5f16935b2aa0c"
+    } ],
+    "uid" : "36c900977e1d8b81a2c6893cc82bfc01"
+  } ],
+  "name" : "suites"
+}
