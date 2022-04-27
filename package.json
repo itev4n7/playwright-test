@@ -4,11 +4,11 @@
   "description": "Test framework using Playwright with Page Object pattern",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test --config=playwright.config.js",
+    "test": "npx playwright test --config playwright.config.js",
     "inspector": "PWDEBUG=1 npm run test",
-    "test:spec": "npx playwright test $SPEC --config=playwright.config.js",
-    "test:tag-fast": "npx playwright test --config=playwright.config.js --grep @fast",
-    "test:tag-slow": "npx playwright test --config=playwright.config.js --grep @slow",
+    "test:spec": "npx playwright test $SPEC --config playwright.config.js",
+    "test:tag-fast": "npx playwright test --config playwright.config.js --grep @fast",
+    "test:tag-slow": "npx playwright test --config playwright.config.js --grep @slow",
     "allure:generate": "npx allure generate ./allure-results --clean",
     "allure:open": "npx allure open ./allure-report"
   },
