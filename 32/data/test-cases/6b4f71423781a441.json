@@ -1,0 +1,227 @@
+{
+  "uid" : "6b4f71423781a441",
+  "name" : "Check \"Playwright\"(logo) button redirection @fast",
+  "fullName" : "Check \"Playwright\"(logo) button redirection @fast",
+  "historyId" : "chromium tests/ui/navigator_bar.spec.js Check navigator bar component Check \"Playwright\"(logo) button redirection @fast",
+  "time" : {
+    "start" : 1651081820213,
+    "stop" : 1651081821438,
+    "duration" : 1225
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1651081820213,
+        "stop" : 1651081820923,
+        "duration" : 710
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1651081820213,
+          "stop" : 1651081820923,
+          "duration" : 710
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1651081820218,
+            "stop" : 1651081820265,
+            "duration" : 47
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.goto(https://playwright.dev/)",
+          "time" : {
+            "start" : 1651081820274,
+            "stop" : 1651081820923,
+            "duration" : 649
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "locator.waitFor(//*[@class=\"navbar__title\" and contains(text(),\"Playwright\")])",
+      "time" : {
+        "start" : 1651081820924,
+        "stop" : 1651081821093,
+        "duration" : 169
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(//*[@class=\"navbar__title\" and contains(text(),\"Playwright\")])",
+      "time" : {
+        "start" : 1651081821094,
+        "stop" : 1651081821228,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toEqual",
+      "time" : {
+        "start" : 1651081821229,
+        "stop" : 1651081821229,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1651081821229,
+        "stop" : 1651081821437,
+        "duration" : 208
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1651081821427,
+          "stop" : 1651081821436,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "97c05272da33f4b0",
+      "name" : "stdout",
+      "source" : "97c05272da33f4b0.txt",
+      "type" : "text/plain",
+      "size" : 60
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/ui/navigator_bar.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Check navigator bar component"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "c575be9b126358d2",
+        "reportUrl" : "https://itev4n7.github.io/playwright-test/31//#testresult/c575be9b126358d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651081678025,
+          "stop" : 1651081679203,
+          "duration" : 1178
+        }
+      }, {
+        "uid" : "b3818c84c4d77074",
+        "reportUrl" : "https://itev4n7.github.io/playwright-test/30//#testresult/b3818c84c4d77074",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651080892239,
+          "stop" : 1651080893347,
+          "duration" : 1108
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6b4f71423781a441.json",
+  "parameterValues" : [ ]
+}

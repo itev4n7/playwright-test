@@ -1,0 +1,96 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Check side panel introduction items",
+    "uid" : "ba16a7977d81b7a8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1651081819329,
+      "stop" : 1651081822551,
+      "duration" : 3222
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check call - GET /docs/api/class-playwright 200 @fast",
+    "uid" : "2ef40e1890de893f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1651081819403,
+      "stop" : 1651081820210,
+      "duration" : 807
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check \"GET STARTED\" button redirection",
+    "uid" : "c1c78d9d79f38fb4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1651081819612,
+      "stop" : 1651081821983,
+      "duration" : 2371
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check \"Playwright\"(logo) button redirection @fast",
+    "uid" : "6b4f71423781a441",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1651081820213,
+      "stop" : 1651081821438,
+      "duration" : 1225
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check redirection on GitHub repo after clicking on link button",
+    "uid" : "53fe91c9efd588ea",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1651081821985,
+      "stop" : 1651081823761,
+      "duration" : 1776
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check tag @slow",
+    "uid" : "85a2c3f08a428961",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1651081822552,
+      "stop" : 1651081828283,
+      "duration" : 5731
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check scroll to footer \"Community\" column title",
+    "uid" : "1130365857bd7ff5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1651081823762,
+      "stop" : 1651081825326,
+      "duration" : 1564
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
