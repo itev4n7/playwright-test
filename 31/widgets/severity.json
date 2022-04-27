@@ -1,0 +1,71 @@
+[ {
+  "uid" : "db22e49453ad6ede",
+  "name" : "Check scroll to footer \"Community\" column title",
+  "time" : {
+    "start" : 1651081680742,
+    "stop" : 1651081682540,
+    "duration" : 1798
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c575be9b126358d2",
+  "name" : "Check \"Playwright\"(logo) button redirection @fast",
+  "time" : {
+    "start" : 1651081678025,
+    "stop" : 1651081679203,
+    "duration" : 1178
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "789140ff0b65b46",
+  "name" : "Check \"GET STARTED\" button redirection",
+  "time" : {
+    "start" : 1651081677240,
+    "stop" : 1651081678946,
+    "duration" : 1706
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bfa7454d6fb97ec",
+  "name" : "Check side panel introduction items",
+  "time" : {
+    "start" : 1651081677247,
+    "stop" : 1651081680290,
+    "duration" : 3043
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfc83f87b3fed39",
+  "name" : "Check call - GET /docs/api/class-playwright 200 @fast",
+  "time" : {
+    "start" : 1651081677131,
+    "stop" : 1651081678021,
+    "duration" : 890
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cdf18d3c566e66",
+  "name" : "Check tag @slow",
+  "time" : {
+    "start" : 1651081680290,
+    "stop" : 1651081686407,
+    "duration" : 6117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e02132d857fb4414",
+  "name" : "Check redirection on GitHub repo after clicking on link button",
+  "time" : {
+    "start" : 1651081678946,
+    "stop" : 1651081680742,
+    "duration" : 1796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
