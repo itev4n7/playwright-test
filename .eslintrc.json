@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "plugin:playwright/playwright-test"
+  ],
+  "parser": "@babel/eslint-parser",
+  "env": {
+    "es6": true
+  },
+  "parserOptions": {
+    "requireConfigFile": false
+  },
+  "rules": {
+    "eqeqeq": "warn",
+    "strict": "off",
+    "quotes": ["error", "single"],
+    "space-before-blocks": ["error", "always"],
+    "indent": ["error", 4],
+    "no-trailing-spaces": ["error"],
+    "playwright/missing-playwright-await": [
+      "error",
+      { "customMatchers": ["toBeCustomThing"] }
+    ],
+    "playwright/no-focused-test": "error",
+    "playwright/no-wait-for-timeout": "off",
+    "playwright/no-skipped-test": "off"
+  }
+}
