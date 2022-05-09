@@ -6,7 +6,7 @@ on:
       specPath:
         type: choice
         required: true
-        description: Choose spec path
+        description: Choose spec
         options:
           - api/api.spec.js
           - ui/main_page.spec.js
@@ -22,6 +22,7 @@ jobs:
         with:
           node-version: '16.x'
           cache: 'npm'
+
       - uses: microsoft/playwright-github-action@v1
 
       - name: Cache node modules
