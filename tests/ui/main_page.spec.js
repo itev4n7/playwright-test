@@ -3,8 +3,7 @@ const { BASE_URL, INTRO_URL, timeouts } = require('../../constants/constants')
 const { MainPage } = require('../../pages/MainPage')
 const { Utils } = require('../../utils/utils')
 
-test.describe('Check main playwright page', async () => {
-
+test.describe.parallel('Check main playwright page', async () => {
     test.beforeEach(async ({ page }, testInfo) => {
         console.log(`Running "${testInfo.title}"`)
         await page.goto(BASE_URL)
