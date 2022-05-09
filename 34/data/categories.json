@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toEqual(expected) // deep equality\n\nExpected: \"wrongUrl\"\nReceived: \"https://playwright.dev/docs/intro\"",
+      "children" : [ {
+        "name" : "Check fail test with video",
+        "uid" : "d7e18f48437c82f0",
+        "parentUid" : "1c4467a0986a71753743ab98c4622cd3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652104314560,
+          "stop" : 1652104316417,
+          "duration" : 1857
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1c4467a0986a71753743ab98c4622cd3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

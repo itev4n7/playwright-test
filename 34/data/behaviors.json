@@ -1,0 +1,96 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Check side panel introduction items @smoke",
+    "uid" : "54f9be69b6cc723a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652104306244,
+      "stop" : 1652104311165,
+      "duration" : 4921
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check \"GET STARTED\" button redirection @smoke",
+    "uid" : "fb7298dc16f3a28b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652104306451,
+      "stop" : 1652104310631,
+      "duration" : 4180
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check call - GET /docs/api/class-playwright 200 @fast",
+    "uid" : "15c95e95744cd7d0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652104306468,
+      "stop" : 1652104307566,
+      "duration" : 1098
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check redirection on GitHub repo after clicking on link button",
+    "uid" : "d8cc98bfb4e08885",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652104307570,
+      "stop" : 1652104312802,
+      "duration" : 5232
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check scroll to footer \"Community\" column title",
+    "uid" : "89ae8621def4b3f9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652104310633,
+      "stop" : 1652104313768,
+      "duration" : 3135
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check \"Playwright\"(logo) button redirection @smoke",
+    "uid" : "9ac3a7f1166acc7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1652104312806,
+      "stop" : 1652104314386,
+      "duration" : 1580
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check fail test with video",
+    "uid" : "d7e18f48437c82f0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1652104314560,
+      "stop" : 1652104316417,
+      "duration" : 1857
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

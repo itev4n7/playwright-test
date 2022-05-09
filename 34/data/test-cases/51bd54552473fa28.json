@@ -1,0 +1,212 @@
+{
+  "uid" : "51bd54552473fa28",
+  "name" : "Check fail test with video",
+  "fullName" : "Check fail test with video",
+  "historyId" : "chromium tests/ui/main_page.spec.js Check main playwright page Check fail test with video",
+  "time" : {
+    "start" : 1652104311171,
+    "stop" : 1652104314013,
+    "duration" : 2842
+  },
+  "status" : "failed",
+  "statusMessage" : "expect(received).toEqual(expected) // deep equality\n\nExpected: \"wrongUrl\"\nReceived: \"https://playwright.dev/docs/intro\"",
+  "statusTrace" : "\n    at /home/runner/work/playwright-test/playwright-test/tests/ui/main_page.spec.js:42:28",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toEqual(expected) // deep equality\n\nExpected: \"wrongUrl\"\nReceived: \"https://playwright.dev/docs/intro\"",
+    "statusTrace" : "\n    at /home/runner/work/playwright-test/playwright-test/tests/ui/main_page.spec.js:42:28",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1652104311171,
+        "stop" : 1652104312258,
+        "duration" : 1087
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1652104311172,
+          "stop" : 1652104312258,
+          "duration" : 1086
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1652104311180,
+            "stop" : 1652104311287,
+            "duration" : 107
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false,
+          "stepsCount" : 0
+        }, {
+          "name" : "page.goto(https://playwright.dev/)",
+          "time" : {
+            "start" : 1652104311288,
+            "stop" : 1652104312258,
+            "duration" : 970
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 2
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "locator.waitFor(//*[@href=\"/docs/intro\" and contains(text(),\"Get started\")])",
+      "time" : {
+        "start" : 1652104312259,
+        "stop" : 1652104312463,
+        "duration" : 204
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "locator.click(//*[@href=\"/docs/intro\" and contains(text(),\"Get started\")])",
+      "time" : {
+        "start" : 1652104312464,
+        "stop" : 1652104312573,
+        "duration" : 109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expect.toEqual",
+      "time" : {
+        "start" : 1652104312580,
+        "stop" : 1652104312590,
+        "duration" : 10
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1652104312591,
+        "stop" : 1652104314013,
+        "duration" : 1422
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1652104313882,
+          "stop" : 1652104313985,
+          "duration" : 103
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "c7d7a6bbd408a0da",
+      "name" : "video",
+      "source" : "c7d7a6bbd408a0da.webm",
+      "type" : "video/webm",
+      "size" : 127519
+    }, {
+      "uid" : "d3269df6435c51a2",
+      "name" : "screenshot",
+      "source" : "d3269df6435c51a2.png",
+      "type" : "image/png",
+      "size" : 167534
+    }, {
+      "uid" : "ba5b46a4afbe8b79",
+      "name" : "stdout",
+      "source" : "ba5b46a4afbe8b79.txt",
+      "type" : "text/plain",
+      "size" : 37
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/ui/main_page.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Check main playwright page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "51bd54552473fa28.json",
+  "parameterValues" : [ ]
+}
