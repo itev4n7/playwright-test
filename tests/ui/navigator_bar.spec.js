@@ -9,7 +9,7 @@ test.describe('Check navigator bar component', async () => {
         await page.goto(BASE_URL)
     })
 
-    test('Check "Playwright"(logo) button redirection @fast', async ({ page }) => {
+    test('Check "Playwright"(logo) button redirection @smoke', async ({ page }) => {
         const navigationBarComponent = new NavigationBarComponent(page)
         await navigationBarComponent.playwrightLogoButton.waitFor({ state: 'visible' })
         await navigationBarComponent.playwrightLogoButton.click()

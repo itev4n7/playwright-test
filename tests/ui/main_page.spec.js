@@ -9,7 +9,7 @@ test.describe.parallel('Check main playwright page', async () => {
         await page.goto(BASE_URL)
     })
 
-    test('Check "GET STARTED" button redirection', async ({ page }) => {
+    test('Check "GET STARTED" button redirection @smoke', async ({ page }) => {
         const mainPage = new MainPage(page)
         await mainPage.getStartedButton.waitFor({ state: 'visible' })
         await mainPage.getStartedButton.click()

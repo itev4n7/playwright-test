@@ -11,7 +11,7 @@ test.describe('Check "Docs" page', async () => {
         await page.goto(INTRO_URL)
     })
 
-    test('Check side panel introduction items', async ({ page, browserName }) => {
+    test('Check side panel introduction items @smoke', async ({ page, browserName }) => {
         const docsPage = new DocsPage(page)
         const introductionItems = await docsPage.introductionListItems
         for (let i = 0; i < await introductionItems.count(); i++) {
@@ -22,9 +22,5 @@ test.describe('Check "Docs" page', async () => {
         for (let i = 0; i < await introductionItems.count(); i++) {
             await expect(introductionItems.nth(i), 'should be collapsed').not.toBeVisible()
         }
-    })
-
-    test('Check tag @slow', async ({ page }) => {
-        await page.waitForTimeout(timeouts.FIVE_SECONDS)
     })
 })
