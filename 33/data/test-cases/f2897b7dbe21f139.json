@@ -1,0 +1,236 @@
+{
+  "uid" : "f2897b7dbe21f139",
+  "name" : "Check scroll to footer \"Community\" column title",
+  "fullName" : "Check scroll to footer \"Community\" column title",
+  "historyId" : "chromium tests/ui/main_page.spec.js Check main playwright page Check scroll to footer \"Community\" column title",
+  "time" : {
+    "start" : 1652095722380,
+    "stop" : 1652095724701,
+    "duration" : 2321
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1652095722383,
+        "stop" : 1652095723199,
+        "duration" : 816
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1652095722386,
+          "stop" : 1652095723198,
+          "duration" : 812
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1652095722407,
+            "stop" : 1652095722543,
+            "duration" : 136
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.goto(https://playwright.dev/)",
+          "time" : {
+            "start" : 1652095722544,
+            "stop" : 1652095723198,
+            "duration" : 654
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "locator.scrollIntoViewIfNeeded(//*[@class=\"footer__title\" and text()=\"Community\"])",
+      "time" : {
+        "start" : 1652095723201,
+        "stop" : 1652095723518,
+        "duration" : 317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForTimeout",
+      "time" : {
+        "start" : 1652095723518,
+        "stop" : 1652095724520,
+        "duration" : 1002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeVisible",
+      "time" : {
+        "start" : 1652095724520,
+        "stop" : 1652095724543,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1652095724543,
+        "stop" : 1652095724701,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1652095724675,
+          "stop" : 1652095724699,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c6cfc9aa0ba38929",
+      "name" : "stdout",
+      "source" : "c6cfc9aa0ba38929.txt",
+      "type" : "text/plain",
+      "size" : 58
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests/ui/main_page.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Check main playwright page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "1130365857bd7ff5",
+        "reportUrl" : "https://itev4n7.github.io/playwright-test/32//#testresult/1130365857bd7ff5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651081823762,
+          "stop" : 1651081825326,
+          "duration" : 1564
+        }
+      }, {
+        "uid" : "db22e49453ad6ede",
+        "reportUrl" : "https://itev4n7.github.io/playwright-test/31//#testresult/db22e49453ad6ede",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651081680742,
+          "stop" : 1651081682540,
+          "duration" : 1798
+        }
+      }, {
+        "uid" : "53839c8a6127db5d",
+        "reportUrl" : "https://itev4n7.github.io/playwright-test/30//#testresult/53839c8a6127db5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651080895573,
+          "stop" : 1651080897132,
+          "duration" : 1559
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f2897b7dbe21f139.json",
+  "parameterValues" : [ ]
+}

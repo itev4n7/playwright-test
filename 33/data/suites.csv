@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon May 09 11:28:42 GMT 2022","Mon May 09 11:28:44 GMT 2022","2321","chromium","tests/ui/main_page.spec.js","Check main playwright page","","","Check scroll to footer ""Community"" column title",""
+"passed","Mon May 09 11:28:39 GMT 2022","Mon May 09 11:28:43 GMT 2022","3425","chromium","tests/ui/main_page.spec.js","Check main playwright page","","","Check redirection on GitHub repo after clicking on link button",""
+"passed","Mon May 09 11:28:38 GMT 2022","Mon May 09 11:28:39 GMT 2022","1075","chromium","tests/api/api.spec.js","Check API","","","Check call - GET /docs/api/class-playwright 200 @fast",""
+"passed","Mon May 09 11:28:42 GMT 2022","Mon May 09 11:28:49 GMT 2022","6688","chromium","tests/ui/docs_page.spec.js","Check ""Docs"" page","","","Check tag @slow",""
+"passed","Mon May 09 11:28:43 GMT 2022","Mon May 09 11:28:44 GMT 2022","1213","chromium","tests/ui/navigator_bar.spec.js","Check navigator bar component","","","Check ""Playwright""(logo) button redirection @fast",""
+"passed","Mon May 09 11:28:38 GMT 2022","Mon May 09 11:28:42 GMT 2022","4537","chromium","tests/ui/docs_page.spec.js","Check ""Docs"" page","","","Check side panel introduction items",""
+"passed","Mon May 09 11:28:38 GMT 2022","Mon May 09 11:28:42 GMT 2022","3626","chromium","tests/ui/main_page.spec.js","Check main playwright page","","","Check ""GET STARTED"" button redirection",""
