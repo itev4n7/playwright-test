@@ -11,8 +11,8 @@ const config = {
     workers: process.env.CI ? 3 : 1,
     use: {
         screenshot: 'only-on-failure',
+        video: 'retain-on-failure',
         viewport: { width: 1920, height: 1080 },
-        video: 'off',
         headless: !(!process.env.CI),
         ignoreHTTPSErrors: true,
         devtools: true,
@@ -23,18 +23,6 @@ const config = {
             name: 'chromium',
             use: { ...devices['Desktop Chrome'] }
         }
-        // {
-        //     name: 'Mobile Safari',
-        //     use: devices['iPhone 13'],
-        // },
-        // {
-        //     name: 'firefox',
-        //     use: { ...devices['Desktop Firefox'] },
-        // },
-        // {
-        //     name: 'webkit',
-        //     use: { ...devices['Desktop Safari'] },
-        // },
     ]
 }
 

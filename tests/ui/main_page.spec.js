@@ -33,5 +33,13 @@ test.describe.parallel('Check main playwright page', async () => {
         await page.waitForTimeout(timeouts.ONE_SECOND)
         await expect(mainPage.footerCommunityColumnTitle).toBeVisible()
     })
+
+    test('Check fail test with video', async ({ page }) => {
+        const wrongUrl = 'wrongUrl'
+        const mainPage = new MainPage(page)
+        await mainPage.getStartedButton.waitFor({ state: 'visible' })
+        await mainPage.getStartedButton.click()
+        expect(page.url()).toEqual(wrongUrl)
+    })
 })
 
